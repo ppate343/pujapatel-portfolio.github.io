@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero-content">
         <h1>Hi, I'm Puja Patel.</h1>
         <h2>I Code with Purpose, Design with Passion</h2>
-        <p>I am a full-stack developer passionate about crafting intuitive and user-friendly interfaces.</p>
+        <p>I am a full-stack developer passionate about crafting intuitive and user-friendly applications.</p>
         <a href="#about" className="hero-link">About Me</a>
       </div>
       <div className="hero-image">

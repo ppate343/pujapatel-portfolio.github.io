@@ -1,0 +1,29 @@
+/* AboutMe.css */
+.about-section {
+    padding: 2em;
+    margin-top: 25%;
+    text-align: center;
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .about-section h2 {
+    padding-right: 80%;
+    font-size: 2em;
+    color: #fd80cd;
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+  }
+  
+  .description-container {
+    width: 50%;
+    padding: 1em;
+    text-align: center;
+    color: #ffffff;
+  }
+  

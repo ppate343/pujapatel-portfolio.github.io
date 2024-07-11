@@ -1,0 +1,41 @@
+/* Carousel.css */
+.carousel {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .arrow {
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    z-index: 1;
+  }
+  
+  .arrow-left {
+    left: -10%;
+  }
+  
+  .arrow-right {
+    right: -10%;
+  }
+  
+  .carousel-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  

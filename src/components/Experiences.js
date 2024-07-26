@@ -1,10 +1,15 @@
-import React from 'react';
+import React from "react";
+import "../css/Experiences.css";
+import HorizantalTimeline from "./HorizantalTimeline.js";
+import { Fade } from "react-awesome-reveal";
 
 const Experiences = () => {
   return (
-    <section id="experiences">
-      <h2>Experiences</h2>
-      <p>Details about your experiences...</p>
+    <section id="experience" className="experience-section">
+      <Fade direction="up">
+        <h2>Experiences</h2>
+        <HorizantalTimeline />
+      </Fade>
     </section>
   );
 };

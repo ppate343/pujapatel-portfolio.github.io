@@ -1,32 +1,35 @@
-import React, { useState } from 'react';
-import { MdOutlineArrowLeft, MdOutlineArrowRight } from "react-icons/md";
-import '../css/Carousel.css';
+import React from "react";
+import dog from "../images/carousel-imgs/dog.jpg";
+import grad from "../images/carousel-imgs/grad.jpeg";
+import ring from "../images/carousel-imgs/ring.jpeg";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 
-const images = [
-  '/path/to/image1.jpg',
-  '/path/to/image2.jpg',
-  '/path/to/image3.jpg'
-];
+const styles = { width: "100%", height: "auto"};
 
 const Carousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
-  };
-
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
-  };
-
   return (
-    <div className="carousel">
-      <MdOutlineArrowLeft className="arrow arrow-left" onClick={prevSlide} />
-      <div className="carousel-content">
-        <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} className="carousel-image" />
-      </div>
-      <MdOutlineArrowRight className="arrow arrow-right" onClick={nextSlide} />
-    </div>
+    <Splide
+      options={{ rewind: true, height: 600, width: 500, gap: "1rem"}}
+      aria-label="React Splide Example"
+    >
+      <SplideSlide>
+        <img style={styles} src={dog} alt="Dog" />
+        <p>This is my dog, Romeo! He is a 3 Year old black Lab Retriever. In my free time, we love to go on hikes and swimming!</p>
+      </SplideSlide>
+      <SplideSlide>
+        <img
+          style={{ width: "100%", height: "auto" }}
+          src={grad}
+          alt="Graduation"
+        />
+        <p>Graduated Western University June 2024</p>
+      </SplideSlide>
+      <SplideSlide>
+        <img style={styles} src={ring} alt="Ring Ceremony" />
+        <p>Graduated Western University June 2024</p>
+      </SplideSlide>
+    </Splide>
   );
 };
 

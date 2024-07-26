@@ -1,19 +1,40 @@
-import React from 'react';
-import '../css/Hero.css';
-import heroLogo from '../images/hero-logo.png'
+import React from "react";
+import "../css/Hero.css";
+import heroLogo from "../images/hero-logo.png";
+import Typewriter from "react-typewriter-effect";
+import { Fade } from "react-awesome-reveal";
 
 const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="hero-content">
-        <h1>Hi, I'm Puja Patel.</h1>
-        <h2>I Code with Purpose, Design with Passion</h2>
-        <p>I am a full-stack developer passionate about crafting intuitive and user-friendly applications.</p>
-        <a href="#about" className="hero-link">About Me</a>
+        <Typewriter
+          textStyle={{ fontFamily: "system-ui", fontSize: "3em" }}
+          startDelay={100}
+          cursorColor="black"
+          text="Hi, My name is Puja Patel."
+          typeSpeed={100}
+        />
+        <Fade direction="up">
+          <h2>Welcome to my portfolio!</h2>
+          <p>
+            I am a passionate software engineer specializing in full-stack development and data analysis. Let's build something amazing together!
+          </p>
+          <div className="hero-link-container">
+            <a href="#about" className="hero-link">
+              Hire Me!
+            </a>
+            <a href="#about" className="hero-link">
+              Let's Talk!
+            </a>
+          </div>
+        </Fade>
       </div>
-      <div className="hero-image">
-        <img src={heroLogo} alt="Puja Patel" />
-      </div>
+      <Fade direction="up">
+        <div className="hero-image">
+          <img src={heroLogo} alt="Puja Patel" />
+        </div>
+      </Fade>
     </section>
   );
 };

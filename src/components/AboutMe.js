@@ -1,23 +1,23 @@
-import React from 'react';
-import { Fade } from 'react-awesome-reveal';
-import Typewriter from 'react-typewriter-effect';
-import '../css/AboutMe.css';
+import React from "react";
+import { Fade } from "react-awesome-reveal";
+import Carousel from "./Carousel";
+import "../css/AboutMe.css";
 
 const AboutMe = () => {
   return (
     <section id="about" className="about-section">
-      <Fade direction="up">
+      <Fade direction="up" cascasde>
         <h2>About Me</h2>
-      </Fade>
-      <div className="about-content">
-        <div className="description-container">
-          <Typewriter
-            text="Hey there, welcome to my personal portfolio. My name is Puja Patel. I am a software engineering graduate with experience in Full-stack development and project management. Flip through some pictures to get an inside on my life"
-            typeSpeed={80}
-            startDelay={100}
-          />
+        <p>I am a Software Engineer Graduate with experience in full-stack
+          web-developement and a passion for data science! 
+          I am enthusiastic about crafting intuitive and
+          user-friendly applications. 
+          Flip through some of the pictures below to get an inside on my life!</p>
+          
+        <div className="about-content">
+        <Carousel/>
         </div>
-      </div>
+        </Fade>
     </section>
   );
 };

@@ -1,29 +1,30 @@
 /* AboutMe.css */
 .about-section {
-    padding: 2em;
-    margin-top: 25%;
-    text-align: center;
-    background-color: #121212;
-    color: #ffffff;
-  }
-  
-  .about-section h2 {
-    padding-right: 80%;
-    font-size: 2em;
-    color: #fd80cd;
-  }
-  
-  .about-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2em;
-  }
-  
-  .description-container {
-    width: 50%;
-    padding: 1em;
-    text-align: center;
-    color: #ffffff;
-  }
-  
+  text-align: start;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.about-section h2 {
+  padding-top: 5%;
+  padding-left: 2%;
+  font-size: 2.5em;
+  color: #fd80cd;
+}
+
+.about-section p {
+  padding-left: 2%;
+  font-size: 1.5em;
+  color: #ffffff;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 5%;
+
+}
+
+
+

@@ -1,0 +1,19 @@
+
+.experience-section {
+    text-align: start;
+    background-color: #121212;
+    color: #ffffff;
+  }
+
+  .experience-section h2 {
+    padding-top: 5%;
+    padding-left: 2%;
+    font-size: 2.5em;
+    color: #fd80cd;
+  }
+
+  .experience-section p {
+    padding-left: 2%;
+    font-size: 1.5em;
+    color: #ffffff;
+  }

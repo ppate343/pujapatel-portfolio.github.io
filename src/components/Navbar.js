@@ -26,6 +26,7 @@ const Navbar = () => {
         <li><a href="#home" onClick={closeMobileMenu}>Home</a></li>
         <li><a href="#about" onClick={closeMobileMenu}>About Me</a></li>
         <li><a href="#experience" onClick={closeMobileMenu}>Experience</a></li>
+        <li><a href="#skills" onClick={closeMobileMenu}>Skills</a></li>
         <li><a href="#projects" onClick={closeMobileMenu}>Projects</a></li>
         <li><a href="#contact" onClick={closeMobileMenu}>Contact</a></li>
       </ul>

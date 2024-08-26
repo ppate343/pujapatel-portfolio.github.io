@@ -4,6 +4,11 @@
 
 The Puja Patel Portfolio is a responsive web application built with React.js, showcasing a modern, dark-themed design that enhances user experience across all devices and screen sizes. The application features a clean and intuitive interface, utilizing a variety of libraries and tools to provide a seamless browsing experience.
 
+
+
+<img src="./src/images/portfolio.png" alt="portfolio" />
+
+
 **Key Features:**
 
 - **Responsive Design:** Ensures optimal display and usability across various devices and screen sizes, from mobile phones to desktop monitors.

@@ -30,7 +30,7 @@ const HorizantalTimeline = () => {
         </TimelineOppositeContent>
         <TimelineSeparator>
           <TimelineConnector />
-          <TimelineDot color="secondary">
+          <TimelineDot color='secondary' >
             <WorkIcon/>
           </TimelineDot>
           <TimelineConnector />

@@ -30,13 +30,13 @@ The Puja Patel Portfolio is a responsive web application built with React.js, sh
    git clone https://github.com/pujapatel-portfolio/pujapatel-portfolio.github.io.git
 
 2. **Navigate to the Project Directory**
-  ```bash
-  cd pujapatel-portfolio.github.io
+   ```bash
+   cd pujapatel-portfolio.github.io
 
 3. **Install Dependencies**
-  ```bash
-  npm install
+   ```bash
+   npm install
 
 4. **Start the Development Server:**
-  ```bash
-  npm start
+   ```bash
+   npm start

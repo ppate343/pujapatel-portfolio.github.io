@@ -1,7 +1,6 @@
-/* AboutMe.css */
+
 .about-section {
-  text-align: start;
-  background-color: #121212;
+  text-align: center; /* Center align the entire section */
   color: #ffffff;
 }
 
@@ -10,21 +9,29 @@
   padding-left: 2%;
   font-size: 2.5em;
   color: #fd80cd;
-}
-
-.about-section p {
-  padding-left: 2%;
-  font-size: 1.5em;
-  color: #ffffff;
+  text-align: left;
 }
 
 .about-content {
   display: flex;
-  justify-content: center;
-  gap: 1rem;
+  align-items: center; 
+  justify-content: center; 
+  gap: 1rem; 
   margin-top: 5%;
-
+  text-align: left; 
 }
 
+.carousel-container {
+  flex: 1; 
+  padding-left: 25%;
+}
 
-
+.about-content p {
+  flex: 1; 
+  font-size: 1.5em;
+  color: #ffffff;
+  padding-right: 15%;
+  padding-bottom: 15%;
+  margin-top: 10%;
+  line-height: 3; 
+}

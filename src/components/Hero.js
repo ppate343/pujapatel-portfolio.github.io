@@ -4,7 +4,10 @@ import heroLogo from "../images/hero-logo.png";
 import Typewriter from "react-typewriter-effect";
 import { Fade } from "react-awesome-reveal";
 
+
+
 const Hero = () => {
+
   return (
     <section id="home" className="hero">
       <div className="hero-content">
@@ -21,11 +24,11 @@ const Hero = () => {
             I am a passionate software engineer specializing in full-stack development and data analysis. Let's build something amazing together!
           </p>
           <div className="hero-link-container">
-            <a href="#about" className="hero-link">
-              Hire Me!
+            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3qQDA2gwrAblHNbiKLiu62o8zuZF2h3ddd_BXWbePETQruyKM20fNIESSYjB9mvw63sa6AU2qh"  className="hero-link"  rel="noreferrer" target="_blank">
+              Let's Chat
             </a>
             <a href="#about" className="hero-link">
-              Let's Talk!
+              Resume
             </a>
           </div>
         </Fade>

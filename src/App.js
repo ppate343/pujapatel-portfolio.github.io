@@ -6,17 +6,22 @@ import Hero from './components/Hero';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
 import ContactMe from './components/ContactMe';
+import ParticlesBackground from './components/ParticlesBackground';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <AboutMe />
-      <Experiences />
-      <Projects />
-      <ContactMe />
+    <div className="app-container">
+      <ParticlesBackground />
+      <div className="content">
+        <Navbar />
+        <Hero />
+        <AboutMe />
+        <Experiences />
+        <Projects />
+        <ContactMe />
+      </div>
     </div>
+ 
   );
 }
 

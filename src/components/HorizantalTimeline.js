@@ -12,8 +12,9 @@ import SchoolIcon from '@mui/icons-material/School';
 import CelebrationIcon from '@mui/icons-material/Celebration';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import LaptopMacIcon from "@mui/icons-material/LaptopMac";
-
 import Typography from "@mui/material/Typography";
+
+import '../css/timeline.css';
 
 const HorizantalTimeline = () => {
   return (

@@ -1,0 +1,19 @@
+/* Target the TimelineConnector component */
+.MuiTimelineConnector-root {
+    height: 50px; /* Adjust height as needed */
+    border-left: 2px solid white; /* Adjust color and width as needed */
+    width: 2px; /* Adjust width as needed */
+  }
+  
+  .css-1v41xfw-MuiTimelineDot-root {
+    width: 24px; 
+    height: 24px; 
+    background-color: #fd80cd; 
+    color: #ffffff; 
+    border-color: transparent; 
+  }
+  
+  
+  .css-1v41xfw-MuiTimelineDot-root svg {
+    color: black; 
+  }

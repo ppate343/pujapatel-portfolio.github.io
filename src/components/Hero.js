@@ -27,7 +27,7 @@ const Hero = () => {
             <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3qQDA2gwrAblHNbiKLiu62o8zuZF2h3ddd_BXWbePETQruyKM20fNIESSYjB9mvw63sa6AU2qh"  className="hero-link"  rel="noreferrer" target="_blank">
               Let's Chat
             </a>
-            <a href="#about" className="hero-link">
+            <a href="/Puja_Patel_Resume_2024.pdf" className="hero-link" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </div>
